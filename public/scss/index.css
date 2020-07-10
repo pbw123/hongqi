@@ -1,0 +1,67 @@
+.home .header .logo1 {
+  height: 92px; }
+  .home .header .logo1 .log_img {
+    width: 113px;
+    height: 92px;
+    margin: 0 auto; }
+.home .header .logo2 .item {
+  margin-left: 100px; }
+
+.center {
+  background: white;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%); }
+  .center img {
+    width: 100%; }
+
+.one {
+  background: white;
+  width: 1020px;
+  margin-top: 20px; }
+
+.imgs img {
+  width: 1020px; }
+
+.two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 220px; }
+  .two .container {
+    display: flex;
+    flex-direction: column;
+    color: #575757;
+    font-size: 13.33px; }
+    .two .container .first {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; }
+      .two .container .first .wb {
+        margin-right: 10px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row; }
+        .two .container .first .wb .wb-img {
+          margin-right: 10px; }
+      .two .container .first .wx {
+        cursor: pointer;
+        display: flex; }
+        .two .container .first .wx .wx-img {
+          margin-right: 10px; }
+    .two .container .next {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px; }
+      .two .container .next div {
+        padding: 0 10px; }
+    .two .container .last {
+      margin-top: 20px;
+      text-align: center; }
+
+.go-top {
+  position: absolute;
+  right: 10px;
+  top: 2400px; }
+
+/*# sourceMappingURL=index.css.map */
